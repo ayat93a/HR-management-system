@@ -35,6 +35,7 @@ employee.prototype.render = function () {
     `${this.fullName}.payment()`;
 document.write(`${this.fullName} net sallary is ${this.salary} <br>`);
 }
+
 ghazi.payment ();
 lana.payment ();
 tamara.payment ();
@@ -48,8 +49,14 @@ tamara.render ();
 safi.render();
 omar.render ();
 rana.render ();
-hadi.render ();
-
+hadi.render (); 
+/**
+let section = document.getElementById ('section1');
+let ulEl=document.createElement("ul");
+section.appendChild(ulEl);
+let liEl=document.createElement("li")
+ulEl.appendChild(liEl)
+liEl.textContent= "adsweafszcwSAFD"
 
 
 /** 
