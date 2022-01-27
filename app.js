@@ -57,9 +57,6 @@ this.salary = [ghazi.payment (),lana.payment () ,tamara.payment () ,
     safi.payment () ,omar.payment () ,rana.payment () ,hadi.payment ()]
 
 //console.log (ghazi)
-
-
-
  /*
  ghazi.payment ();
  lana.payment ();
@@ -67,18 +64,20 @@ this.salary = [ghazi.payment (),lana.payment () ,tamara.payment () ,
  safi.payment ();
  omar.payment ();
  rana.payment ();
- hadi.payment ();
-
-
- /*employee.prototype.render = function () {
+ hadi.payment ();*/
+employee.prototype.render = function () {
      `${this.fullName}.payment()`;
  document.write(`${this.fullName} net sallary is ${this.salary} <br>`);
- }*/
- /*
- ghazi.render () ;
+ }
+ /*ghazi.render () ;
  lana.render();
  tamara.render ();
  safi.render();
  omar.render ();
  rana.render ();
  hadi.render ();*/
+
+ let divElG=document.getElementById("ghazi")
+ let pElG=document.createElement('p');
+divElG.appendChild(pElG);
+pElG.textContent = ghazi.render () ;
