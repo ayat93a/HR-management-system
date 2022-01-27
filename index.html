@@ -1,36 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./homepage.css">
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Management System</title>
     <h1> ASAC Management System </h1>
+
 <body>
     <nav>
-        <ul> 
+        <ul>
             <li><a href="./accounting.html"> Accounting System </a></li>
         </ul>
     </nav>
-<section1>
+    <section1>
+        <h2>Employee Personal Information</h2>
+        <form id=employeeInfo>
+            <fieldset>
+                <legend>Add Personal Information </legend>
+                <label for="fullName">Add Employee Name </label>
+                <input type="text" name=fullName id="fullName">
+                <label for="department">Choose The Department</label>
+                <select name="department" id="department">
+                    <option></option>
+                    <option>Administration</option>
+                    <option>Marketing</option>
+                    <option>Development</option>
+                    <option>Finance</option>
+                </select>
+                <br>
+                <br>
+                <label for="level">Level</label>
+                <select name="Level" id="level">
+
+                    <option></option>
+                    <option>Junior</option>
+                    <option>Mid-Senior</option>
+                    <option>Senior</option>
+                </select>
+                <label for="ImageUrl">Image URL</label>
+                <input type="url" name="ImageUrl" id="ImageUrl">
+                <br>
+                <br>
+                <input type="submit" id="submit" value="newEmployeeInfo">
+            </fieldset>
+        </form>
+    </section1>
+    <section class="card">
+    <div class="ghazi">
+        <img src="./images/Ghazi.jpg"  id="ghazi" style="width:50%">
+        <div class="container" name=ghazi id="ghazi"> </div>
+    </div>
+    <div class="hadi"> 
+         <img src="./images/Hadi.jpg"  id="hadi" style="width:50%">
+        <div class="container" name=hadi id="hadi"></div> 
+        <p></p>
+    </div>
+    <div class="lana">
+        <img src="./images/Lana.jpg"  id="lana" style="width:50%">
+        <div class="container" name=lana id="lana"></div>
+    </div>
+    <div class="omar">
+        <img src="./images/Omar.jpg"  id="omar" style="width:50%">
+        <div class="container" name=omar id="omar"></div>
+    </div>
+    <div class="rana">
+        <img src="./images/Rana.jpg"  id="rana" style="width:50%">
+        <div class="container" name=rana id="rana"></div>
+    </div>
+    <div class="safi">
+        <img src="./images/Safi.jpg"  id="safi" style="width:50%">
+        <div class="container" name=safi id="safi"></div>
+    </div>
+    <div class="tamara">
+        <img src="./images/Tamara.jpg"  id="tamara" style="width:50%">
+        <div class="container" name=tamara id="tamara"></div>
+    </div>
+
+    </section>
+
+</body>
+<footer>
     <ul>
         <li>
 
+            <p> © All Copyright Reserved </p>
+            <p><a href="https://www.facebook.com/ASAC.LTUC/"> Contact Us on facebook
+                </a></p>
+            <p> <a href="https://www.instagram.com/asac.ltuc/?hl=en"> Contact Us on
+                    instagram </a></p>
         </li>
     </ul>
-</section1>
-</body>
-<footer> 
-    <ul>
-        <li>
 
-    <p> © All Copyright Reserved </p>
-    <p><a href="https://www.facebook.com/ASAC.LTUC/"> Contact Us on facebook 
-    </a></p>
-    <p> <a href="https://www.instagram.com/asac.ltuc/?hl=en"> Contact Us on 
-        instagram </a></p>
-    </li> 
-    </ul>
 </footer>
 <script src="./app.js"></script>
+
 </html>
