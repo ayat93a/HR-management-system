@@ -1,36 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./homepage.css">
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Management System</title>
     <h1> ASAC Management System </h1>
+
 <body>
     <nav>
-        <ul> 
+        <ul>
             <li><a href="./accounting.html"> Accounting System </a></li>
         </ul>
     </nav>
-<section1>
-    <ul>
-        <li>
+    <section1>
+        <h2>Employee Personal Information</h2>
+        <form id=employeeInfo>
+            <fieldset>
+                <legend>Add Personal Information </legend>
+                <label for="fullName">Add Employee Name </label>
+                <input type="text" name=fullName id="fullName">
+                <label for="department">Choose The Department</label>
+                <select name="department" id="department">
+                    <option></option>
+                    <option>Administration</option>
+                    <option>Marketing</option>
+                    <option>Development</option>
+                    <option>Finance</option>
+                </select>
+                <br>
+                <br>
+                <label for="level">Level</label>
+                <select name="Level" id="level">
 
-        </li>
-    </ul>
-</section1>
+                    <option></option>
+                    <option>Junior</option>
+                    <option>Mid-Senior</option>
+                    <option>Senior</option>
+                </select>
+                <label for="ImageUrl">Image URL</label>
+                <input type="url" name="ImageUrl" id="ImageUrl">
+                <br>
+                <br>
+                <input type="submit" id="submit" value="newEmployeeInfo">
+            </fieldset>
+        </form>
+    </section1>
+    <div class="card">
+        <img src="./images/Ghazi.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=ghazi id="ghazi"> 
+            
+         <img src="./images/Hadi.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=hadi id="hadi">
+
+        <img src="./images/Lana.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=lana id="lana"></div>
+
+        <img src="./images/Omar.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=omar id="omar"></div>
+
+        <img src="./images/Rana.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=rana id="rana"></div>
+
+        <img src="./images/Safi.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=safi id="safi"></div>
+
+        <img src="./images/Tamara.jpg" alt="Avatar" id="card" style="width:15%">
+        <div class="container" name=tamara id="tamara"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
 </body>
-<footer> 
+<footer>
     <ul>
         <li>
 
-    <p> © All Copyright Reserved </p>
-    <p><a href="https://www.facebook.com/ASAC.LTUC/"> Contact Us on facebook 
-    </a></p>
-    <p> <a href="https://www.instagram.com/asac.ltuc/?hl=en"> Contact Us on 
-        instagram </a></p>
-    </li> 
+            <p> © All Copyright Reserved </p>
+            <p><a href="https://www.facebook.com/ASAC.LTUC/"> Contact Us on facebook
+                </a></p>
+            <p> <a href="https://www.instagram.com/asac.ltuc/?hl=en"> Contact Us on
+                    instagram </a></p>
+        </li>
     </ul>
 </footer>
 <script src="./app.js"></script>
+
 </html>
