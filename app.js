@@ -1,3 +1,4 @@
+
 function employee( fullName, department, level, employeeID, ImageURL) {
     this.fullName = fullName;
     this.department = department;
@@ -5,6 +6,7 @@ function employee( fullName, department, level, employeeID, ImageURL) {
     this.salary = 0;
     this.employeeID = 0;
     this.ImageURL = 0
+
 }
 /*object*/
 const ghazi = new employee( "Ghazi Samer", "Administration", "senior",);
