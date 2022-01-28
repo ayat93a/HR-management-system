@@ -1,5 +1,7 @@
+
 employee.allEmployee = []
 function employee( fullName, department, level, employeeID, ImageUrl) {
+
     this.fullName = fullName;
     this.department = department;
     this.level = level;
@@ -7,6 +9,7 @@ function employee( fullName, department, level, employeeID, ImageUrl) {
     this.employeeID = 0;
     this.ImageUrl = 0;
     employee.allEmployee.push(this);
+
 }
 
 /*object*/
@@ -104,6 +107,7 @@ function settingItems(){
     }
     settingItems();
 
+
 function gettingItem (){
     let stringObj =  localStorage.getItem('employee');
   //console.log(stringObj)
@@ -114,3 +118,4 @@ function gettingItem (){
    //render();
 }
 gettingItem();
+
